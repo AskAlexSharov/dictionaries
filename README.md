@@ -1,4 +1,4 @@
-# Pre-trained dictionaries for to compress data in Eth database 
+# Pre-trained dictionaries to compress data in Eth database 
 
 It initially trained on some tables of https://github.com/ledgerwatch/turbo-geth project. Shows 4x compression ratio with 50 microsecond of encode/decode speed (iterate over 10M receipts and compress each one takes 3min, decompress - 1min)
 
