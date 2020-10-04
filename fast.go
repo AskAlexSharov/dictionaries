@@ -6,7 +6,7 @@ type Dicts struct {
 	Receipts []byte
 }
 
-// Fast - list of dictionaries which target high-sped instead of high-compression ratio
+// Fast - list of dictionaries which target high-sped instead of high-compression-ratio
 var Fast = &Dicts{
 	// cbor-encoded receipts
 	// 5K blocks from [8_000_000:10980440], by logic: BlockN+=(to-from)/5_000
